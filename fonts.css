@@ -1,0 +1,51 @@
+
+/* Helvetica — headings and titles */
+@font-face {
+    font-family: "Project Helvetica";
+    src: url("./fonts/helvetica-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Project Helvetica";
+    src: url("./fonts/helvetica-bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Futura — normal text */
+@font-face {
+    font-family: "Project Futura";
+    src: url("./fonts/futura-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Project Futura";
+    src: url("./fonts/futura-bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Default font */
+body {
+    font-family: "Project Futura", sans-serif;
+}
+
+/* Headings and titles */
+h1, h2, h3, h4, h5, h6,
+.title, .heading {
+    font-family: "Project Helvetica", Arial, sans-serif;
+}
+
+/* Form controls */
+input, textarea, select, button {
+    font-family: "Project Futura", sans-serif;
+}
+
